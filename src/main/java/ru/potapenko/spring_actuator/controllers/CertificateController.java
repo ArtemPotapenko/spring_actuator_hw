@@ -16,7 +16,7 @@ import ru.potapenko.spring_actuator.configurations.CertConfiguration;
 import java.security.cert.X509Certificate;
 import java.util.Date;
 import java.util.List;
-@RestController()
+@RestController
 @RequestMapping("api/mypage")
 public class CertificateController {
 
